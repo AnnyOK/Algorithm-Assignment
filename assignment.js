@@ -31,7 +31,7 @@ E.g. given, let array1 = [1, 2, 4, 5, 10, 6, 3 ] and let array2 = [0, 8, 19, 90,
 Should return => [0,1,2,3,4,5,6,8,10,11,13,16,19,90].
  */
 function mergeArray(arr1,arr2){
-  return arr1.concat(arr2).sort((a,b)=a-b)
+  return arr1.concat(arr2).sort((a,b)=>a-b)
 }
 let array1 = [1, 2, 4, 5, 10, 6, 3 ], array2 = [0, 8, 19, 90, 11, 16, 13 ]
 console.log(mergeArray(array1,array2))
